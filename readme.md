@@ -19,7 +19,7 @@ Login to your AWS account using your AWS credentials
 # Step 2:- Create IAM Users
 1. Go to AWS managed console search bar and search - IAM
 
-![IAM](https://github.com/avinash-jagtap/IAM-Access-Management.git)
+![IAM](https://github.com/avinash-jagtap/IAM-Access-Management/blob/master/Images/Search-IAM.png)
 
 2. CLick on - IAM
 3. Click on - Users
