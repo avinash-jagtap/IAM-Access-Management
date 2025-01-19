@@ -26,6 +26,7 @@ Login to your AWS account using your AWS credentials
     * Tick Checkbox - Provide user access to the AWS Management Console.
     * Console password - Custom password 
     * Enter Password - Admin@004
+
         _Password Policy- 1. at least 8 characters long and 2. Include 3 char(A-Z with lower & Upper), at least 1 number(0-9), symbols ! @ # $ % ^ & * ( ) _ + -, (hyphen) = [ ] { } |_
     #### Next
 5. Click on - create user
@@ -42,6 +43,7 @@ Login to your AWS account using your AWS credentials
 3. Enter Group name - Admins
 4. Add users - AdminUser1 & AdminUser2 
 5. Attach permissions policies - AdministratorAccess
+
     _Now your Admins have full access_
 6. Click on - create User group
 ##### Admin user Group created Succefully.
@@ -69,6 +71,7 @@ _Now your users and user groups are created now you can manage access create and
     * Enter policy name - S3-Write-access
     * Click on - Create policy 
 5. Go to DevUser1 and verify in - Permissions policies
+
 _Note:- The inline policy named S3-Write-access grants the DevUser1 user write access to all S3 resources._
 #### Inline Policy for DevUser2
 1. Go to users
@@ -82,6 +85,7 @@ _Note:- The inline policy named S3-Write-access grants the DevUser1 user write a
     * Enter policy name - EBS-Write-access
     * Click on - Create policy 
 5. Go to DevUser2 and verify in - Permissions policies
+
 _Note:- The inline policy named EBS-Write-access grants the DevUser2 user write access to all EBS resources._
 ##### Both developers, DevUser1 and DevUser2, can perform read operations on IAM service however, DevUser1 has write permissions only for S3, and DevUser2 has write permissions only for EBS.
 #### Inline Policy for Developers groups
